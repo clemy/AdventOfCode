@@ -26,7 +26,8 @@ mapname
     { return {from, to}; }
 
 mapdata
-	= mapdataline|.., newline|
+	= data:mapdataline|.., newline|
+    { return data.sort((a, b) => a.src - b.src); }
 
 mapdataline
 	= dest:Integer _ src:Integer _ len:Integer
