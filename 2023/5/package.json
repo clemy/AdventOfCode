@@ -1,0 +1,9 @@
+{
+  "name": "5",
+  "version": "1.0.0",
+  "main": "app.mjs",
+  "license": "MIT",
+  "dependencies": {
+    "peggy": "^3.0.2"
+  }
+}
