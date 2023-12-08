@@ -1,6 +1,6 @@
 import { readFile } from 'fs/promises';
 
-const input = await readFile('2023/6/tinput.txt', 'utf8');
+const input = await readFile('2023/6/input.txt', 'utf8');
 const lines = input.split('\n');
 
 const calculateResult = input => {
