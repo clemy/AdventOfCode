@@ -1,0 +1,9 @@
+{
+  "name": "25",
+  "version": "1.0.0",
+  "main": "app.mjs",
+  "license": "MIT",
+  "dependencies": {
+    "@graph-algorithm/minimum-cut": "^2.0.0"
+  }
+}
